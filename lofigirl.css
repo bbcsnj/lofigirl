@@ -1,1 +1,129 @@
-
+/* NAVIGATION CODE */
+html {
+height: 100%;
+}
+* {box-sizing: border-box;}
+body{
+height: 100%;
+margin: 0;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background: linear-gradient(to bottom, #ce8880 30%, #172f22, #172f22);
+background-size: 100%;
+background-color: #172f22;
+background-repeat: no-repeat;  
+}
+nav { 
+position: sticky;
+top: 0px;  
+z-index: 1;  
+background-color: #605c3f; 
+height: 55px;
+border: 1px solid #605c3f;  
+}
+nav ul { list-style-type: none;  
+padding-left: 0px;
+margin-left: auto;
+margin-right: auto;
+width:555px;
+}
+nav li {  
+display: inline-block;
+text-align: center;
+padding-left: 30px;
+padding-right: 30px;
+}
+nav a  { 
+text-decoration: none; 
+color: white;
+font-size: 1.25em;
+font-weight:bold;
+}
+nav a:hover {
+color:#e1714c;
+text-shadow: 0 0 0.02em #b5d3d5;
+}
+body {
+background-color: white;
+}
+#wrapper { 
+background-color: #fffbf6; 
+color: ;
+width: 80%;
+margin-top: -5px;
+margin-right: auto;
+margin-left: auto;
+margin-bottom: 0px;
+min-width: 850px;
+max-width: 1200px;
+border: 0px solid black;
+height: 100%;
+}  
+main { 
+background-color: #fffbf6;
+color: ;
+border: 1px solid #fffbf6;
+} 
+header { 
+background: url(https://www.highsnobiety.com/static-assets/thumbor/Xkof92vBLDwbbMBOQbIlmopXf2g=/1600x1067/www.highsnobiety.com/static-assets/wp-content/uploads/2020/02/25170803/lofi-girl.jpg);
+background-size: cover;
+background-position: center;
+color: ; 
+font-size: 150%;
+margin: 0px;
+height: 150px;
+border: 0px solid black;
+}
+h2 { 
+color: #d46f51; 
+font-family: arial, sans-serif;
+margin-left: 25px;
+}
+p {
+color: #0d1d18; 
+font-family: arial, sans-serif;
+font-size: 115%;
+margin-left: 25px;  
+}
+.styleIt {
+color: #0d1d18; 
+font-family: arial, sans-serif;
+font-size: 115%;
+margin-left: 25px;
+line-height: 1.5em;  
+}
+.styleMe:any-link {
+color:#0d1d18; 
+}
+.styleMe:hover {
+color:#e1714c; 
+}
+figcaption {
+text-align: center;
+}
+#floatright { 
+margin: 35px 15px 15px 15px;
+float: right;
+border-radius: 30px;
+box-shadow: 2px 2px 5px black;
+}
+footer { 
+background-color: #172f22; 
+color: #fffbf6;
+clear: right;
+border: 0px solid black;
+position: fixed;
+width: 100vw;
+bottom: 0px;  
+z-index: 1;
+text-align: center;
+padding-top: 15px;
+padding-bottom: 15px;
+}	
+h1 {
+font-family: 'Tourney', cursive;
+color: #bf7141;  
+margin-left: 25px;
+margin-top: 5px;
+text-shadow: 1px 1px 2px black, 0 0 1em #62a864, 0 0 0.2em #29612a;
+}
